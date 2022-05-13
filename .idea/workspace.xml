@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ac5e521-f1df-4a80-8c49-ef5a5a253415" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/Unknown copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Unknown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/new_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/new_image22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/red.jpeg" afterDir="false" />
+    <list default="true" id="3ac5e521-f1df-4a80-8c49-ef5a5a253415" name="Changes" comment="algorithm to get color line in image">
+      <change afterPath="$PROJECT_DIR$/flower1Gray_withLine.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColorObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/flower1Gray_withLine.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProcessOnImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProcessOnImage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +32,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="290fKWZ7deR82umOYydaG5ZTstk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -46,9 +50,15 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -71,7 +81,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652254861457</updated>
-      <workItem from="1652254863375" duration="5993000" />
+      <workItem from="1652254863375" duration="6681000" />
+      <workItem from="1652264521882" duration="7000" />
+      <workItem from="1652355947924" duration="3152000" />
+      <workItem from="1652381999349" duration="35000" />
+      <workItem from="1652439609428" duration="1927000" />
+      <workItem from="1652442336645" duration="5008000" />
     </task>
     <task id="LOCAL-00001" summary="read image&#10;convert it to gray&#10;write image">
       <created>1652261394464</created>
@@ -80,25 +95,24 @@
       <option name="project" value="LOCAL" />
       <updated>1652261394464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="put images in folder images">
+      <created>1652261816817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652261816817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="read image&#10;convert it to gray&#10;write image" />
-    <option name="LAST_COMMIT_MESSAGE" value="read image&#10;convert it to gray&#10;write image" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ProcessOnImage.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="put images in folder images" />
+    <MESSAGE value="algorithm to get color line in image" />
+    <option name="LAST_COMMIT_MESSAGE" value="algorithm to get color line in image" />
   </component>
 </project>
